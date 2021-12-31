@@ -12,7 +12,7 @@ const mysqlUserName = "mysql user";
 const mysqlPassword = "mysql password";
 const dbName = "db name";
 const backup_dir = "./backups/"; //saving files inside backups directory
-const backup_name = `hawlervaris_db_${today}.sql`;
+const backup_name = `db_${today}.sql`; //export file name
 const accessKey = "access key"; // a key to verify the key parameter from the get request
 
 app.get("/", async (req, res) => {
